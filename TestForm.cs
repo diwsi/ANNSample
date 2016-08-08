@@ -1,11 +1,4 @@
-﻿/// <summary>
-///  Artificial neural network  and backpropagation example
-/// Engin Özdemir 2016
-/// xenamorphx@gmail.com
-/// https://binarysongs.blogspot.com
-/// </summary>
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -13,7 +6,12 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-
+    /// <summary>
+    ///  Artificial neural network  and backpropagation example
+    /// Engin Özdemir 2016
+    /// xenamorphx@gmail.com
+    /// https://binarysongs.blogspot.com
+    /// </summary>
     public partial class TestForm : Form
     {
         public NeuralNetwork network;
